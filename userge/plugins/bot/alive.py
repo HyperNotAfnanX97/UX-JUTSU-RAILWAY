@@ -1,4 +1,4 @@
-"""Fun plugin"""
+﻿"""Fun plugin"""
 
 import asyncio
 from datetime import datetime
@@ -284,13 +284,13 @@ class Bot_Alive:
     def alive_info(me):
         u_name = " ".join([me.first_name, me.last_name or ""])
         alive_info = f"""
-­<a href="https://t.me/xplugin"><b>𝐕𝐄𝐍𝐎𝐌</a> is spreading.</b>
+­<a href="https://telegra.ph/file/77bbb85f6cf4cc6842c5f.jpg"><b>𝑹𝑰𝑵𝑵𝑬𝑮𝑨𝑵</a> is on and Analysing.</b>
 
-  🐍   <b>Python      :</b>    <code>v{versions.__python_version__}</code>
-  🔥   <b>Pyrogram :</b>    <code>v{versions.__pyro_version__}</code>
+  🐍   <b>Pethon      :</b>    <code>v{versions.__python_version__}</code>
+  🔥   <b>Perogram :</b>    <code>v{versions.__pyro_version__}</code>
   🧬   <b>𝑿                :</b>    <code>v{get_version()}</code>
-  👤   <b>User          :</b>    <code>{u_name}</code>
-  <b>{Bot_Alive._get_mode()}</b>        <code>|</code>    🕔  <b>{userge.uptime}</b>
+  👤   <b>Master          :</b>    <code>{u_name}</code>
+  <b>{Bot_Alive._get_mode()}</b>        <code>|</code>    Uptime  <b>{userge.uptime}</b>
 """
         return alive_info
 
@@ -318,20 +318,38 @@ class Bot_Alive:
         return InlineKeyboardMarkup(buttons)
 
     @staticmethod
+
     def alive_default_imgs() -> str:
+
         alive_imgs = [
-            "https://telegra.ph/file/11123ef7dff2f1e19e79d.jpg",
-            "https://i.imgur.com/uzKdTXG.jpg",
-            "https://telegra.ph/file/6ecab390e4974c74c3764.png",
-            "https://telegra.ph/file/995c75983a6c0e4499b55.png",
-            "https://telegra.ph/file/86cc25c78ad667ca5e691.png",
+
+            "https://telegra.ph/file/028d334c4734482b4237b.jpg",
+            "https://telegra.ph/file/2835c93a525681e0b9410.jpg",
+            "https://telegra.ph/file/47887c8e7c20b439a8891.jpg",
+            "https://telegra.ph/file/d4c0cccba65ab4ce84755.jpg",
+            "https://telegra.ph/file/0f9a4f958cc66d1940bf6.jpg",
+            "https://telegra.ph/file/e19dd3c48ada5196dc19c.jpg",
+            "https://telegra.ph/file/a5cfea1e88a8b497aac77.jpg",
+            "https://telegra.ph/file/ae89991978ef4f2c8018b.jpg",
+            "https://telegra.ph/file/f0af55233e5c3ada588e0.jpg",
+            "https://telegra.ph/file/e90e613955ec9d777bf54.jpg",
+            "https://telegra.ph/file/7cd68d150debc02438313.jpg",
+            "https://telegra.ph/file/10df5825e6a64cc152dfd.jpg",
+            "https://telegra.ph/file/b322f36d8c62a80035f40.jpg",
+            "https://telegra.ph/file/5e5bfea85014be87f4800.jpg",
         ]
+
+
         return rand_array(alive_imgs)
 
     @staticmethod
+
     def get_bot_cached_fid() -> str:
+
         return _BOT_CACHED_MEDIA
 
     @staticmethod
+
     def is_photo(file_id: str) -> bool:
+
         return bool(FileId.decode(file_id).file_type in PHOTO_TYPES)
