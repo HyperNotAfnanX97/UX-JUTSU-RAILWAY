@@ -195,32 +195,32 @@ async def handle_afk_outgoing(message: Message) -> None:
 
 
 AFK_REASONS = (
-    "I'm busy right now. Please talk in a bag and when I come back you can just give me the bag!",
-    "I'm away right now. If you need anything, leave a message after the beep: \
+    "I'm fuckin busy right now. Please talk in a fuckin bag and when I come back you can just give me the fuckin bag!",
+    "I'm fuckin away right now. If you fuckin need anything, leave a message after the fuvkin beep: \
 `beeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeep!`",
-    "You missed me, next time aim better.",
-    "I'll be back in a few minutes and if I'm not...,\nwait longer.",
+    "You fuckin missed me, next time aim better.",
+    "I'll be back in a few minutes and if I'm not...,\nFuckin wait longer.",
     "I'm not here right now, so I'm probably somewhere else.",
-    "Roses are red,\nViolets are blue,\nLeave me a message,\nAnd I'll get back to you.",
-    "Sometimes the best things in life are worth waiting for…\nI'll be right back.",
-    "I'll be right back,\nbut if I'm not right back,\nI'll be back later.",
+    "Roses are yellow,\nViolets are black,\nDon't leave me a a fuckin message,\nI'll noy get back to you.",
+    "Sometimes the best things in life are worth waiting for…\nI'll be fuckin right back.",
+    "I'll be fuckin back,\nbut if I'm not fuckin back,\nI'll be fuckin back later.",
     "If you haven't figured it out already,\nI'm not here.",
-    "I'm away over 7 seas and 7 countries,\n7 waters and 7 continents,\n7 mountains and 7 hills,\
-7 plains and 7 mounds,\n7 pools and 7 lakes,\n7 springs and 7 meadows,\
-7 cities and 7 neighborhoods,\n7 blocks and 7 houses...\
-    Where not even your messages can reach me!",
-    "I'm away from the keyboard at the moment, but if you'll scream loud enough at your screen,\
+    "I'm away over 7 fuckin seas and 7 fuckin countries,\n7 fuckin waters and 7 fuckin continents,\n7 fuckin mountains and 7 fuckin hills,\
+7 fuckin plains and 7 fuckin mounds,\n7 fuckin pools and 7 fuckin lakes,\n7 fuckin springs and 7 fuckin meadows,\
+7 fuckin cities and 7 fuckin neighborhoods,\n7 fuckin blocks and 7 fuckin houses...\
+    Whereyour fuckin messages can't reach me!",
+    "I'm fuckin away from the keyboard at the moment, but if you'll fuckin scream loud enough at your screen,\
     I might just hear you.",
-    "I went that way\n>>>>>",
-    "I went this way\n<<<<<",
-    "Please leave a message and make me feel even more important than I already am.",
-    "If I were here,\nI'd tell you where I am.\n\nBut I'm not,\nso ask me when I return...",
-    "I am away!\nI don't know when I'll be back!\nHopefully a few minutes from now!",
-    "I'm not available right now so please leave your name, number, \
+    "I fuckin went that way\n>>>>>",
+    "I fuckin went this way\n<<<<<",
+    "Please leave a fuckin message and make me feel even more important than I already am.",
+    "If I were here,\nI'd tell you where I am.\n\nBut I'm not,\nso fuckin ask me when I return...",
+    "I am away!\nI don't know when I'll be back!\nHopefully a few fuckin minutes from now!",
+    "I'm not available right now so please leave your fuckin name, number, \
     and address and I will stalk you later. :P",
-    "Sorry, I'm not here right now.\nFeel free to talk to my userbot as long as you like.\
-I'll get back to you later.",
-    "I bet you were expecting an away message!",
-    "Life is so short, there are so many things to do...\nI'm away doing one of them..",
-    "I am not here right now...\nbut if I was...\n\nwouldn't that be awesome?",
+    "Sorry, I'm not here right now.\nFeel free to talk to my fuckin userbot as long as you like.\
+I'll fuckin get back to you later.",
+    "I bet you were expecting an fuckin away message!",
+    "Life is fuckin short, there are so many fuckin things to do...\nI'm away doing one of them..",
+    "I am not here right now...\nbut if I was...\n\nwouldn't that be fuckin awesome?",
 )
