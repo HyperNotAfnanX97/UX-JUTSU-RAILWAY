@@ -217,7 +217,7 @@ AFK_REASONS = (
     "If I were here,\nI'd tell you where I am.\n\nBut I'm not,\nso fuckin ask me when I return...",
     "I am away!\nI don't know when I'll be back!\nHopefully a few fuckin minutes from now!",
     "I'm not available right now so please leave your fuckin name, number, \
-    and address and I will stalk you later. :P",
+    and address and I will fuckin stalk you later. :P",
     "Sorry, I'm not here right now.\nFeel free to talk to my fuckin userbot as long as you like.\
 I'll fuckin get back to you later.",
     "I bet you were expecting an fuckin away message!",
